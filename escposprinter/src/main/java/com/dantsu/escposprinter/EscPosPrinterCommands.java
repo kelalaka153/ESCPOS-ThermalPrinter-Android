@@ -79,7 +79,7 @@ public class EscPosPrinterCommands {
     public static final int QRCODE_1 = 49;
     public static final int QRCODE_2 = 50;
 
-    private DeviceConnection printerConnection;
+    public DeviceConnection printerConnection;
     private EscPosCharsetEncoding charsetEncoding;
     private boolean useEscAsteriskCommand;
 
